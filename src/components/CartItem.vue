@@ -16,7 +16,7 @@ defineProps({
     <div class="flex flex-col flex-1">
       <p>{{ title }}</p>
 
-      <div class="flex justify-between gap-20">
+      <div class="flex justify-between gap-10 lg:gap-20">
         <b class="flex-1">{{ price }}</b>
         <img
           @click="emit('onClickRemove')"

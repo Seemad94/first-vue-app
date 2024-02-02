@@ -22,10 +22,10 @@ const emit = defineEmits(['openDrawler'])
     <ul class="flex items-center gap-10 pt-4 pl-0">
       <li
         @click="() => emit('openDrawler')"
-        class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black"
+        class="flex items-center cursor-pointer gap-3 lg:gap-3 text-gray-500 hover:text-black"
       >
         <img src="/cart.svg" alt="Cart" />
-        <b class="">{{ totalPrice }} ₽</b>
+        <b class="flex flex-col">{{ totalPrice }}₽</b>
       </li>
       <router-link to="/Favorites">
         <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
