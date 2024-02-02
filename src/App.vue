@@ -48,10 +48,10 @@ provide('cart', {
 <template>
   <Drawler v-if="drawlerOpen" :total-price="totalPrice" :vat-price="vatPrice" />
 
-  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14">
+  <div class="bg-white lg:w-4/5 m-auto rounded-xl shadow-xl lg:mt-14">
     <Header :total-price="totalPrice" @open-drawler="openDrawler" />
 
-    <div class="p-10">
+    <div class="lg:p-10">
       <router-view></router-view>
     </div>
   </div>

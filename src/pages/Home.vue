@@ -119,10 +119,8 @@ watch(filters, fetchItems)
 </script>
 
 <template>
-  <div class="flex justify-between items-center">
-    <h2 class="text-3xl font-bold mb-8">Все кроссовки</h2>
-
-    <div class="flex gap-4">
+  <div class="justify-between items-center">
+    <div class="flex justify-between lg:gap-4 gap-2">
       <select
         @change="onChangeSelect"
         class="py-2 px-3 border rounded-md outline-none"
@@ -144,6 +142,7 @@ watch(filters, fetchItems)
         />
       </div>
     </div>
+    <h2 class="sm:text-3xl font-bold mb-4 mt-5 items-center text-center">Все кроссовки:</h2>
   </div>
   <div class="mt-10">
     <CardList :items="items" @add-to-favorite="addToFavorite" @add-to-cart="onClickAddPlus" />

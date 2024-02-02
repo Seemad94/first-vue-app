@@ -24,7 +24,7 @@ defineProps({
     />
 
     <img :src="imageUrl" alt="Sneakers" />
-    <p class="mt-2">{{ title }}</p>
+    <p class="">{{ title }}</p>
 
     <div class="flex justify-between mt-5">
       <div class="flex flex-col">

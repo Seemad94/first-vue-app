@@ -19,7 +19,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h2 class="text-3xl font-bold mb-8">Мои закладки</h2>
+  <h2 class="text-center lg:text-3xl font-bold mb-8">Мои закладки</h2>
 
   <CardList :items="favorites" is-favorites />
 </template>
