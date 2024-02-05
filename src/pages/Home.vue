@@ -133,10 +133,10 @@ watch(filters, fetchItems)
       </select>
 
       <div class="relative">
-        <img class="absolute left-4 top-3" src="/search.svg" alt="" />
+        <img class="absolute left-40 lg:left-4 top-3" src="/search.svg" alt="" />
         <input
           @input="onChangeSearchInput"
-          class="border rounded-md w-full py-2 pl-2 lg:pl-11 lg:pr-4 outline-none focus:border-grey-400"
+          class="border rounded-md w-full py-2 pl-1 lg:pl-11 lg:pr-4 outline-none focus:border-grey-400"
           type="text"
           placeholder="Поиск..."
         />
